@@ -1,0 +1,47 @@
+﻿@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 900;
+	src: url('./fonts/eot/IRANSansWeb_Medium.eot');
+	src: url('./fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('./fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('./fonts/woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('./fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+        h1, h2, h3, h4, h5, h6, p,input, textarea {
+	font-family: IRANSans !important;
+        }
+        h1 {
+	font-weight: bold;
+        }
+        .content {
+            color: #000;
+            background-color: #fff;
+            padding: 10px;
+            margin: 7px;
+            box-shadow: 1px 1px 2px rgba(0,0,0,0.1),0 6px 16px rgba(48,54,69,0.1),0 1px 12px #eee;
+        }
+        body {
+            background: url(./img/back.png);
+            font-family: "IRANSans",Helvetica,Geneva,Verdana,sans-serif;
+        }
+        .btn-buy {
+            font-family: "iransans",Helvetica,Geneva,Verdana,sans-serif;
+            margin: 2.5rem auto 0 auto;
+            display: table;
+            color: #fff;
+            font-weight: bold;
+            padding-right: 2rem;
+            padding-left: 1.5rem;
+            background-color: #32ff4a;
+            border-color: #32ff4a;
+            border-radius: 2rem;
+        }
+        .btn {
+            font-family: "iransans",Helvetica,Geneva,Verdana,sans-serif;
+            text-rendering: optimizeLegibility;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        h6 {
+            color: red;
+        }
